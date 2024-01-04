@@ -1,0 +1,13 @@
+.nav {
+  background-color: coral;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* :global(.test) {
+  background-color: lightcoral;
+} */
