@@ -8,6 +8,7 @@ import AppLayout from "./pages/AppLayout";
 import Login from "./pages/Login";
 import CityList from "./components/CityList";
 import City from "./components/City";
+import Form from "./components/Form";
 
 import { polyfillCountryFlagEmojis } from "country-flag-emoji-polyfill";
 polyfillCountryFlagEmojis();
@@ -51,7 +52,7 @@ function App() {
           />
           <Route path="cities/:id" element={<City />} />
           <Route path="countries" element={<p>Countries</p>} />
-          <Route path="form" element={<p>Form</p>} />
+          <Route path="form" element={<Form />} />
         </Route>
         <Route path="*" element={<PageNotFound />}></Route>
       </Routes>
